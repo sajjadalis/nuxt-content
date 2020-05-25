@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-content",
+  "version": "1.0.0",
+  "description": "My legendary Nuxt.js project",
+  "author": "Sajjad Ali",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.0.0",
+    "@nuxt/core": "^2.12.2",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/moment": "^1.6.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
