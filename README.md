@@ -1,8 +1,8 @@
-# nuxt-content
+# Nuxt Content Blog
 
-> My legendary Nuxt.js project
+A simple markdown blog with nuxt and nuxt-content module. [Uikit](https://getuikit.com/) for layout. 
 
-## Build Setup
+## Setup
 
 ``` bash
 # install dependencies
@@ -19,7 +19,5 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org) & [nuxt-content](https://content.nuxtjs.org/).
 
-index > list all posts with title and link
-post > get the post
