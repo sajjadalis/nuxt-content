@@ -1,9 +1,13 @@
 <template>
   <div>
 
-      <div v-if="post.layout === 'post'">
+    <section class="uk-section uk-section-small uk-section-default uk-padding-remove-bottom">
+      <div v-if="post.layout === 'post'" class="uk-container uk-container-expand uk-margin-large-bottom content-entry">
+        <h1>{{post.title}}</h1>
+
         <nuxt-content :document="post"/>
       </div>
+    </section>
 
   </div>
 </template>

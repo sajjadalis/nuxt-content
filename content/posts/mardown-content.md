@@ -3,8 +3,9 @@ layout: post
 title: Markdown Content
 slug: mardown-content
 author: Sajjad Ali
-image: /assets/img/Karakoram-1280px-Biafo_Glacier,_Gilgit_Region.jpg
+image: /assets/img/markdown.jpg
 posted: 26/05/2020
+category: photo-card
 ---
 Here's a numbered list:
 

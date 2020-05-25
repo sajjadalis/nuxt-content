@@ -4,16 +4,17 @@
 			<div class="uk-container uk-container-expand">
 				<div class="uk-grid uk-grid-medium uk-flex uk-flex-middle" data-uk-grid>
 					<div class="uk-width-auto">
-						<a href="#" class="uk-logo" title=""><img src="/assets/img/logo.svg" alt=""></a>
+						<a href="/" class="uk-logo" title=""><img src="/assets/img/logo.svg" alt=""></a>
 					</div>
 					<div class="uk-width-expand">
-
+            <!-- <input class="uk-input uk-width-1-1 search-fld" type="search" placeholder="Type your search" autofocus v-model="q" @input="$emit('q', $event)"> -->
+            <form id="search-form" action="">
 							<div class="uk-inline uk-width-1-1">
 								<span class="uk-form-icon uk-form-icon-flip" data-uk-icon="icon: search"></span>
-								<input class="uk-input uk-width-1-1 search-fld" type="search" placeholder="Type your search" autofocus v-model="q" @input="$emit('q', $event)">
+								<input class="uk-input uk-width-1-1 search-fld" type="text" placeholder="Type your search" autofocus>
 								<a href="#" class="search-filter" data-uk-filter-control="[data-tags*='']" hidden>Search</a>
 							</div>
-
+						</form>
 					</div>
 					<div class="uk-width-auto">
 						<ul class="uk-subnav" data-uk-margin>
